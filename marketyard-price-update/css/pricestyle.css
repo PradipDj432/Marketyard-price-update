@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+    font-family: monospace;
+    font-size:large;
+}
+
+th{
+    text-align: center;
+    padding: 8px;
+}
+
+tr{
+    text-align: center;
+    padding: 8px;
+}
+
+
+tr:nth-child(even){
+    background-color: lightgray;
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color:#96D4D4;
+    color: black;
+}
+
+th{
+    background-color:cadetblue;
+    color:white;
+}
+table,td,th{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+h1,h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
